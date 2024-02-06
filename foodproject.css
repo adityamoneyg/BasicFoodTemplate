@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    width:100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./assets/food1.png");
+    background-size:  cover;
+    background-attachment: fixed;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    margin-top: 55px;
+}
+.item-list{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Red Rose";
+    line-height: 22px;
+    color: yellow;
+}
+.logo,.item-list{
+    cursor: pointer;
+}
+button{
+    padding: 12px 40px;
+    background-color: red;
+    border: none;
+    font-size: 25px;
+    font-family: 'Red Rose';
+    font-style: italic;
+    line-height: 30px;
+    color: aqua;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: white;
+    color: red;
+    border: 1px solid black;
+  }
+.hero{
+    max-width: 1154px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 119px;
+}
+.hero h1 {
+    font-size: 104px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 114px;
+    color: crimson;
+}
+footer{
+    position: absolute;
+    size: 100px;
+    right: 40px;
+}
